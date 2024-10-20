@@ -5,12 +5,16 @@ Este é um jogo da velha simples implementado em HTML, CSS e JavaScript. O jogo 
 ## Como Jogar
 
 1. **Objetivo**: O objetivo do jogo é ser o primeiro a alinhar três peças na horizontal, vertical ou diagonal.
+
 2. **Início do Jogo**: O jogador "X" começa.
+
 3. **Jogadas**:
    - Clique em uma célula vazia do tabuleiro para colocar sua peça.
    - O jogador atual pode fazer até três jogadas.
    - Após três jogadas, a peça mais antiga será removida quando um novo movimento for feito.
-4. **Vencedor**: O jogo termina quando um jogador conseguir alinhar três peças ou quando não houver mais movimentos disponíveis (empate).
+
+4. **Vencedor**: O jogo termina quando um jogador conseguir alinhar três peças.
+
 5. **Reiniciar o Jogo**: Clique no botão "Reiniciar" para começar um novo jogo.
 
 ## Estrutura do Projeto
@@ -37,8 +41,11 @@ O projeto é composto pelos seguintes arquivos:
 ## Funcionalidades
 
 - **Tabuleiro Dinâmico**: O tabuleiro é gerado utilizando HTML, e as jogadas são feitas através de eventos de clique em células específicas.
+
 - **Controle de Jogadas**: A lógica do jogo mantém o controle de quantas jogadas cada jogador fez, permitindo a remoção da peça mais antiga quando necessário.
+
 - **Verificação de Vitória**: A cada jogada, o jogo verifica se o jogador atual venceu, exibindo uma mensagem em 'status' se um jogador ganhar.
+
 - **Reinicialização do Jogo**: O jogo pode ser reiniciado a qualquer momento, limpando o tabuleiro e resetando o estado.
 
 ## Instalação
