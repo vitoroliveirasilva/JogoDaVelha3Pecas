@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== Título da página ===== -->
+    <title>Jogo da Velha</title>
+
+    <!-- ===== Importação do css ===== -->
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+
+    <!-- ===== Card para jogo da velha ===== -->
+    <div class="card">
+
+        <!-- ===== Título do card ===== -->
+        <h1>Jogo da Velha</h1>
+
+        <!-- ===== Tabuleiro do jogo da velha ===== -->
+        <div class="tabuleiro">
+
+            <!-- Células do tabuleiro -->
+            <div class="celula" data-index="0"></div>
+            <div class="celula" data-index="1"></div>
+            <div class="celula" data-index="2"></div>
+            <div class="celula" data-index="3"></div>
+            <div class="celula" data-index="4"></div>
+            <div class="celula" data-index="5"></div>
+            <div class="celula" data-index="6"></div>
+            <div class="celula" data-index="7"></div>
+            <div class="celula" data-index="8"></div>
+
+        </div>
+
+        <!-- ===== Botão para reiniciar o jogo da velha ===== -->
+        <button id="reiniciar">Reiniciar Jogo</button>
+    </div>
+
+    <!-- ===== Div para exibição de status ===== -->
+    <div class="status">
+
+        <!-- ===== Mensagem de status ===== -->
+        <p id="mensagem">Jogador 'X', inicie o jogo</p>
+
+    </div>
+
+    <!-- ===== Importação do javascript ===== -->
+    <script src="./src/js/script.js"></script>
+
+</body>
+
+</html>
