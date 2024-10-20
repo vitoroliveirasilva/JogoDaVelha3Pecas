@@ -28,14 +28,12 @@ O projeto é composto pelos seguintes arquivos:
 ### Exemplo de Estrutura de Arquivos
 
 ```
-/jogo-da-velha
-│
-├── index.html
-└── src/
-    ├── css/
-    │    └── style.css
-    └── /js
-        └── script.js
+index.html
+src/
+├── css/
+│    └── style.css
+└── /js
+      └── script.js
 ```
 
 ## Funcionalidades
