@@ -99,29 +99,29 @@ h1 {
 }
 
 /* ===== Estilo para células quando marcadas por X ===== */
-.celula.x {
+#tabuleiro .celula.x {
     background: var(--player-x-background);
     color: var(--player-x-text);
 }
 
 /* ===== Estilo para células quando marcadas por O ===== */
-.celula.o {
+#tabuleiro .celula.o {
     background: var(--player-o-background);
     color: var(--player-o-text);
 }
 
 /* ===== Efeito ao passar o mouse sobre uma célula ===== */
-.celula:hover {
+#tabuleiro .celula:hover {
     filter: brightness(0.9); /* Escurece o fundo da célula */
 }
 
 /* ===== Estilo para células desativadas (já ocupadas) ===== */
-.celula.disabled {
+#tabuleiro .celula.disabled {
     filter: brightness(0.6); /* Escurece o fundo da célula */
     cursor: default;
 }
 
-.celula.disabled:hover {
+#tabuleiro .celula.disabled:hover {
     filter: brightness(0.6); /* Escurece o fundo da célula e anula o efeito hover em células desativadas */
 }
 
